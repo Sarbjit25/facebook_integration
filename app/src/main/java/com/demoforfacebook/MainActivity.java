@@ -31,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
         public void onSuccess(LoginResult loginResult) {
             Profile profile = Profile.getCurrentProfile();
             displayMessage(profile);
+
+
+
         }
 
         @Override
